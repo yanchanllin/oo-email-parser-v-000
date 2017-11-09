@@ -6,12 +6,9 @@ class EmailParser
   attr_accessor :name, :emails
 
 #   def parse
-#     parser = self.new
-#     parser.split("," " ").uniq
-#     parser.save
-#     parser
-#   end
+#     parser.split(",").uniq
 # end
+
 def initialize(emails)
   @emails = emails
 end
